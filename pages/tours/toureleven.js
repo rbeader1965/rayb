@@ -1,11 +1,11 @@
 import Data from '../../json/tour11.json'
 import Image from 'next/image'
-import Reed from '../../components/Reed'
+import Reed11 from '../../components/Reed11'
 const TourEleven = () => {
   return (
     <div className='h-screen'>
             <div className='bg-slate-900 grid grid-cols-4 grid-rows-6 p-4 gap-2'>
-           <Reed/>
+           <Reed11/>
                 {Data.map(person => {
                   return(
                   // eslint-disable-next-line react/jsx-key
