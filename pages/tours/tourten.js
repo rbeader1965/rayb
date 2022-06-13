@@ -15,8 +15,8 @@ const TourTen = () => {
                     <Image  src={person.src} alt={person.alt} width={512} height={256}/>
                     <div className='p-6 hover:bg-green-900 hover:text-white transition duration-300 ease-in'>
                     <h2 className='text-base font-medium text-slate-200 mb-1'>Hole # {person.hole}</h2>
-                        <h1 className='text-2xl font-semibold mb-3'>{person.course}</h1>
-                        <p className='leading-relaxed mb-3'>Green is for Quasar , Orange is for Navigator</p>
+                        <h1 className='text-2xl font-semibold mb-3'>{person.tourname}</h1>
+                        <p className='leading-relaxed mb-3'>Green is for Titan , Orange is for Kingmaker</p>
                          <div className='flex items-center flex-nowrap gap-2'>
                          <button className='bg-green-600 rounded-full ring-offset-2 ring-2 text-xs p-1 hover:bg-green-800'>
                             <a href={person.pdf1}>{person.driver}</a>
