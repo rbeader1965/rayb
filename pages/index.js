@@ -21,7 +21,7 @@ export async function getServerSideProps() {
 export default function Home({data1}) {
   return (
 <>
-<div className="bg-slate-500">
+<div className="bg-slate-500 box-border">
 <table className="w-6/12 m-auto text-sm text-left text-gray-500 dark:text-gray-400">
   <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
     <tr>
