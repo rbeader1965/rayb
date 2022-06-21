@@ -1,10 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
 import { BeakerIcon, BriefcaseIcon } from '@heroicons/react/solid'
+import Image from 'next/image'
 const Navbar = () => {
   return (
     <div className='bg-slate-800 p-4 flex justify-between items-center'>
     <div className="m-2 flex items-center gap-3">
+      <Image src="/Untitled.png" alt="nill" width={97} height={37} />
       <BeakerIcon className="h-5 w-5 text-blue-500 hover:text-blue-200"/>
       <Link href="/">
       <a className="text-blue-500 mr-2 hover:text-blue-200">Home</a>
