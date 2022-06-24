@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'barlow': 'Barlow Condensed'
+        'barlow': 'Barlow Condensed',
+        'roboto': 'Roboto'
       },
     },
   },

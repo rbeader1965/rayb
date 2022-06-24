@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 const Reed9 = () => {
   return (
-    <div className='text-center mb-12 '>
+    <div className='text-center mb-12 font-roboto space-x-4'>
     <h5 className='text-base md:text-lg text-gray-700 mb-1'>Welcome to </h5>
     <h1 className='text-4xl md:text-6xl text-gray-700 font-semibold'>Golf Clash Tour 9</h1>
     <h2 className='text-2xl md:text-3xl text-gray-700 font-semibold'>Katana</h2>
