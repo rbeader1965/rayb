@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
-import { BeakerIcon, BriefcaseIcon } from '@heroicons/react/solid'
+import { BeakerIcon, BriefcaseIcon} from '@heroicons/react/solid'
+import { FaCanadianMapleLeaf  } from "react-icons/fa";
 import Image from 'next/image'
 const Navbar = () => {
   return (
@@ -39,6 +40,8 @@ const Navbar = () => {
       <Link href="/tours/shootouts">
       <a className="text-blue-500 mr-4 hover:text-blue-200">Shootouts</a>
       </Link>
+      <FaCanadianMapleLeaf className="h-5 w-5 text-blue-500 hover:text-blue-200"/>
+           
       <Link href="/sports">
       <a className="text-blue-700 mr-4 hover:text-blue-300">Sports Bets</a>
       </Link>
