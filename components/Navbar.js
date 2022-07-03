@@ -47,8 +47,10 @@ const Navbar = () => {
       </Link>
     </div>
 <div>
-      <a href="#" className="inline-block py-2 px-4 text-indigo-200 mr-2">Login</a>
-      <a href="#" className="inline-block py-2 px-4 text-yellow-700 bg-yellow-400 rounded">Sign Up</a>
+  <Link href="/hun">
+    <a className="py-2 px-4 text-indigo-500 hover:text-blue-200 mr-2">Login</a>
+  </Link>
+      <a href="#" className="inline-block py-2 px-4 text-yellow-700 bg-yellow-400 rounded hover:bg-yellow-800 hover:text-white ">Sign Up</a>
     </div>
   </div> 
   

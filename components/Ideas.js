@@ -1,5 +1,4 @@
 import { createClient } from "@supabase/supabase-js";
-import Ideas from "../components/Ideas";
 
 export async function getServerSideProps() {
   const supabaseAdmin = createClient(
@@ -17,13 +16,10 @@ export async function getServerSideProps() {
   }
 }
 
-
-
-export default function Home({data1}) {
+const Ideas = ({data1}) => {
   return (
-<>
-<div className="bg-slate-500 box-border flex">
-<table className="w-6/12 mx-1 text-sm text-left text-gray-500 dark:text-gray-400">
+    <div>
+        <table className="max-w-full md:max-w-2xl m-auto text-sm text-left text-gray-500 dark:text-gray-400">
   <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
     <tr>
     <th  scope="col" className="px-6 py-3">Date</th>
@@ -35,7 +31,7 @@ export default function Home({data1}) {
   </thead>
   <tbody>
       {data1.map((image) => (
-    <tr key={image.id} className="border-b dark:bg-gray-800 dark:border-gray-700 odd:bg-white even:bg-gray-50 odd:dark:bg-gray-800 even:dark:bg-gray-700">
+    <tr key={image.id} className="border-b dark:bg-gray-900 dark:border-gray-700 odd:bg-white even:bg-gray-50 odd:dark:bg-gray-900 even:dark:bg-gray-700">
         <td  className="px-6 py-4">{image.mates}</td>
         <td  className="px-6 py-4">{image.hours}</td>
         <td  className="px-6 py-4">${image.tips}</td>
@@ -46,13 +42,8 @@ export default function Home({data1}) {
       ))}
   </tbody>
 </table>
-<div>
-  <Ideas data1={data1}/>
-</div>
-</div>
-
-
-</> 
+    </div>
   )
 }
 
+export default Ideas

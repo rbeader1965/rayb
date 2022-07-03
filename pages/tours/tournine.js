@@ -4,14 +4,14 @@ import Reed9 from '../../components/Reed9'
 const TourNine = () => {
   return (
     <div className='h-screen'>
-            <div className='bg-slate-900 grid grid-cols-4 grid-rows-6 p-4 gap-2'>
+            <div className='bg-slate-900 grid grid-cols-4 grid-rows-6 p-4 gap-2 '>
            <Reed9/>
                 {Data.map(person => {
                   return(
                   // eslint-disable-next-line react/jsx-key
-                  <div className='bg-green-500'>
+                  <div className='bg-green-500 '>
                     <div className='p-4'>
-                    <div  key={person.id} className='h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden'>
+                    <div  key={person.id} className='h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden '>
                     <Image  src={person.src} alt={person.alt} width={512} height={256}/>
                     <div className='p-6 hover:bg-green-900 hover:text-white transition duration-300 ease-in'>
                     <h2 className='text-base font-medium text-slate-200 mb-1'>Hole # {person.hole}</h2>
