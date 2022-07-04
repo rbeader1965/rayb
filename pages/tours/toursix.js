@@ -5,7 +5,7 @@ import Data from '../../json/tour6.json'
 const TourSix = () => {
   return (
     <div className='h-screen'>
-            <div className='bg-slate-900 grid grid-cols-4 grid-rows-6 p-4 gap-2 font-barlow'>
+            <div className='bg-slate-900 grid grid-cols-4 grid-rows-6 p-4 gap-2 font-barlow sm:flex sm:flex-wrap sm:flex-none'>
      <Reed/>
                 {Data.map(person => {
                   return(
