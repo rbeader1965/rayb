@@ -5,8 +5,8 @@ import { FaCanadianMapleLeaf  } from "react-icons/fa";
 import Image from 'next/image'
 const Navbar = () => {
   return (
-    <div className='bg-slate-800 p-4 flex justify-between items-center'>
-    <div className="m-2 flex items-center gap-3 font-barlow">
+    <div className='bg-slate-800 p-4 flex flex-wrap justify-center shrink '>
+    <div className="m-2 flex flex-wrap justify-center gap-3 font-barlow">
       <Image src="/Untitled.png" alt="nill" width={97} height={37} />
       <BeakerIcon className="h-5 w-5 text-blue-500 hover:text-blue-200"/>
       <Link href="/">
