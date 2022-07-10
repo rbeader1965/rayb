@@ -22,11 +22,8 @@ export async function getServerSideProps() {
 export default function Home({data1}) {
   return (
 <>
-<div className="bg-slate-500 box-border p-4 flex">
-
-<div>
+<div className="bg-slate-500 box-border p-4 flex justify-center">
   <Ideas data1={data1}/>
-</div>
 </div>
 
 
