@@ -21,7 +21,7 @@ const Reed10 = () => {
     <Link className='text-zinc-100' href="/pdfs/misc/roughironkingmaker.pdf">Rough Irons</Link>
     </button>
     <button className='bg-gray-400 mt-3 mr-3 rounded-full ring-offset-2 ring-2 text-xs p-1 hover:bg-gray-800 hover:text-white'>
-        <Link href="/pdfs/misc/sandkingmaker.pdf">Sand Clubs</Link>
+        <Link href="/pdfs/misc/sandkingmaker.pdf">Sandy Clubs</Link>
     </button>
     
    </div>
