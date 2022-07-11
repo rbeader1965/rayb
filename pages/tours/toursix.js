@@ -4,7 +4,7 @@ import Reed from '../../components/Reed';
 const TourSix = () => {
   return (
     <div className='h-screen'>
-       <div className='w-full bg-green-500 text-center font-roboto space-x-4'>
+       <div className='w-auto bg-green-500 text-center font-roboto space-x-4'>
     <h5 className='text-base  text-gray-700 mb-1'>Welcome to </h5>
     <h1 className='text-4xl text-gray-700 font-semibold'>Golf Clash Tour 6</h1>
     </div>
