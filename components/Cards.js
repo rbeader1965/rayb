@@ -1,10 +1,8 @@
-import Image from 'next/image'
-import React from 'react'
 
 const Cards = () => {
   return (
-    <div className="bg-blue-800 grid grid-rows-3 grid-flow-col w-96 h-96 gap-4">
-    <div className="row-span-3 col-span-2">
+    <div className="bg-blue-800 grid grid-rows-3 grid-flow-col w-96 h-96 gap-4 lg:w-full">
+    <div className="row-span-3 col-span-2 sm:w-full">
       <form>
         <input type="text" />
       </form>
