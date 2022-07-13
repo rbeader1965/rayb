@@ -4,7 +4,7 @@ import { BeakerIcon, BriefcaseIcon} from '@heroicons/react/solid'
 import { FaCanadianMapleLeaf } from "react-icons/fa";
 const Navbar = () => {
   return (
-    <div className='bg-slate-800 w-screen md:p-2 inline-block md:flex md:flex-wrap md:justify-between md:text-xl'>
+    <div className='bg-slate-800 w-full md:w-auto inline-block md:flex md:flex-wrap md:justify-between md:text-xl'>
     <div className="flex flex-wrap justify-center gap-2 font-roboto">
       <ul className='m-2 text-base flex flex-wrap justify-center gap-3 font-roboto'>
       <BeakerIcon className="h-5 w-5 text-blue-500 hover:text-yellow-200"/>
