@@ -1,8 +1,8 @@
 
 const Cards = () => {
   return (
-    <div className="bg-blue-800 grid grid-rows-3 grid-flow-col w-96 h-96 gap-4 lg:w-full">
-    <div className="row-span-3 col-span-2 sm:w-full">
+    <div className="bg-blue-800 grid grid-rows-3 grid-flow-col w-96 h-96">
+    <div className="row-span-3 col-span-2 ">
       <form>
         <input type="text" />
       </form>

@@ -4,7 +4,7 @@ import Reed11 from '../../components/Reed11'
 const TourEleven = () => {
   return (
     <div className='h-screen'>
-            <div className='bg-slate-900 grid grid-cols-4 grid-rows-6 p-4 gap-2'>
+            <div className='bg-slate-900 grid grid-cols-1 md:grid-cols-3 p-2 gap-2 font-roboto'>
            <Reed11/>
                 {Data.map(person => {
                   return(
