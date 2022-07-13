@@ -3,7 +3,7 @@ import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout className='w-full'>
+    <Layout>
        <Component {...pageProps} />
     </Layout>
   )

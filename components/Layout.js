@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 
 export const Layout = ({children}) => {
   return (
-    <div className='w-auto'>
+    <div>
    <Navbar />
    { children }
     </div>
