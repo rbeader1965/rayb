@@ -22,11 +22,11 @@ const Ideas = ({data1}) => {
         <table className="w-auto p-2 md:p-1 text-xs text-center text-gray-500 dark:text-gray-400">
   <thead className="text-xs text-gray-700 uppercase text-semibold bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
     <tr>
-    <th  scope="col" className="px-4 py-3">Date</th>
-    <th  scope="col" className="px-4 py-3">Hours</th>
-    <th  scope="col" className="px-4 py-3">Tips</th>
-    <th  scope="col" className="px-4 py-3">Downs</th>
-    <th  scope="col" className="px-4 py-3">Daily</th>
+    <th  scope="col" className="px-1 md:px-4 py-1 md:py-3">Date</th>
+    <th  scope="col" className="px-1 md:px-4 py-1 md:py-3">Hours</th>
+    <th  scope="col" className="px-1 md:px-4 py-1 md:py-3">Tips</th>
+    <th  scope="col" className="px-1 md:px-4 py-1 md:py-3">Downs</th>
+    <th  scope="col" className="px-1 md:px-4 py-1 md:py-3">Daily</th>
     </tr>
   </thead>
   <tbody>
