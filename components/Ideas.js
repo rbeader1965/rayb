@@ -32,11 +32,11 @@ const Ideas = ({data1}) => {
   <tbody>
       {data1.map((image) => (
     <tr key={image.id} className="border-b dark:bg-gray-900 dark:border-gray-700 odd:bg-white even:bg-gray-50 odd:dark:bg-gray-900 even:dark:bg-gray-700">
-        <td  className="px-4 py-4">{format(new Date(image.mates),'MM/dd/yyyy')}</td>
-        <td  className="px-4 py-4">{image.hours}</td>
-        <td  className="px-4 py-4">${image.tips}</td>
-        <td  className="px-4 py-4">{image.downs}</td>
-        <td  className="px-4 py-4">${image.daily}</td>
+        <td  className="px-1 md:px-4 py-1 md:py-4">{format(new Date(image.mates),'MM/dd/yyyy')}</td>
+        <td  className="px-1 md:px-4 py-1 md:py-4">{image.hours}</td>
+        <td  className="px-1 md:px-4 py-1 md:py-4">${image.tips}</td>
+        <td  className="px-1 md:px-4 py-1 md:py-4">{image.downs}</td>
+        <td  className="px-1 md:px-4 py-1 md:py-4">${image.daily}</td>
     </tr>
 
       ))}
