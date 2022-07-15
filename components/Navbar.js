@@ -1,19 +1,15 @@
 import React from 'react'
 import Link from 'next/link'
-import { BeakerIcon, BriefcaseIcon} from '@heroicons/react/solid'
+import { BeakerIcon} from '@heroicons/react/solid'
 import { FaCanadianMapleLeaf } from "react-icons/fa";
 const Navbar = () => {
   return (
-    <div className='bg-slate-800 w-full md:w-auto inline-block md:flex md:flex-wrap md:justify-between md:text-xl'>
-    <div className="flex flex-wrap justify-center gap-2 font-roboto">
-      <ul className='m-2 text-base flex flex-wrap justify-center gap-3 font-roboto'>
-      <BeakerIcon className="h-5 w-5 text-blue-500 hover:text-yellow-200"/>
+    <div className='bg-slate-800 w-full md:w-auto inline-block md:flex md:flex-wrap justify-between'>
+    <div className="flex flex-wrap justify-items-stretch gap-2">
+      <ul className='m-2 text-base flex flex-wrap  gap-2 font-roboto'>
+      <BeakerIcon className="h-4 w-4 text-blue-500 hover:text-yellow-200"/>
       <Link href="/">
       <a className="text-blue-500 mr-2 hover:text-blue-200">Home</a>
-      </Link>
-      <BriefcaseIcon className='h-5 w-5 text-blue-500 hover:text-yellow-200'/>
-      <Link href="/hun">
-      <a className="text-blue-500 mr-2 hover:text-yellow-200">WorkStuff</a>
       </Link>
       <Link href="/tours/toursix">
       <a className="text-blue-500 mr-2 hover:text-yellow-200">Tour 6</a>
