@@ -30,7 +30,7 @@ const Shootouts = () => {
                             <a href={person.pdf4}>{person.ball4}</a>
                           </button>
                           <button className='bg-green-600 rounded-full ring-offset-2 ring-2 text-xs p-1 hover:bg-green-800'>
-                            <a href={person.pdf4}>{person.ball5}</a>
+                            <a href={person.pdf5}>{person.ball5}</a>
                           </button>
                         </div>
                     
