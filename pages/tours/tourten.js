@@ -18,7 +18,7 @@ const TourTen = () => {
                  <div className='p-6 hover:bg-slate-900 hover:text-white transition duration-300 ease-in'>
                  <h2 className='text-base text-center font-medium text-slate-200 mb-1'>Hole # {person.hole}</h2>
                      <h1 className='text-2xl text-center font-semibold mb-3'>{person.course}</h1>
-                     <p className='leading-relaxed text-center mb-2'>Blue is for Marlin , Gray is for Range Ball</p>
+                     <p className='leading-relaxed text-center mb-2'>Blue is for Titan , Gray is for Kingmaker</p>
                       <div className='flex justify-center flex-nowrap gap-2'>
                       <button className='bg-blue-600 rounded-full ring-offset-2 ring-2 text-xs p-1 hover:bg-blue-800'>
                          <a href={person.pdf1}>{person.driver}</a>
