@@ -3,7 +3,7 @@ import Image from 'next/image'
 const Shootouts = () => {
   return (
     <div className='h-screen'>
-            <div className='bg-amber-500 grid grid-cols-4 grid-rows-7 p-4'>
+            <div className='bg-amber-500 grid grid-cols-1 md:grid-cols-4 p-2 gap-2 font-roboto'>
                 {Data.map(person => {
                   return(
                   // eslint-disable-next-line react/jsx-key
