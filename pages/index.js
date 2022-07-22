@@ -22,8 +22,8 @@ export async function getServerSideProps() {
 export default function Home({data1}) {
   return (
 <>
-<div className="bg-slate-500 w-full md:w-auto flex justify-center">
-  <Ideas data1={data1}/>
+<div className="bg-[url('/34.jpeg')] bg-contain bg-center w-full md:w-auto flex justify-center ">
+  <Ideas data1={data1}  />
 </div>
 
 
