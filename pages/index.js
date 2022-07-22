@@ -1,5 +1,6 @@
 import { createClient } from "@supabase/supabase-js";
 import Ideas from "../components/Ideas";
+import Footer from '../components/Footer';
 
 export async function getServerSideProps() {
   const supabaseAdmin = createClient(
@@ -25,7 +26,7 @@ export default function Home({data1}) {
 <div className="bg-[url('/34.jpeg')] bg-contain bg-center w-full md:w-auto flex justify-center ">
   <Ideas data1={data1}  />
 </div>
-
+<Footer/>
 
 </> 
   )
