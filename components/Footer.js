@@ -1,7 +1,5 @@
 import ItemsContainer from "./itemsContainer";
-import {Icons} from './Menu'
 import Socialicons from "./Socialicons";
-import { BsFacebook,BsTwitter,BsInstagram,BsApple,BsBank } from "react-icons/bs";
 
 export default function Footer() {
   return (
@@ -11,14 +9,14 @@ export default function Footer() {
             <span className="text-teal-400">Fire</span> until youre busted</h1>
         <div>
         <input type="text" placeholder="Enter your Number" className="text-gray-800 sm:w-72 w-full sm:mr-5 mr-1 lg:mb-0 mb-4 py-2.5 rounded px-2 focus:outline-none" />  
-        <button className="bg-teal-400 hover:bg-teal-500 duration-300 px-5 py-2.5 font-roboto rounded-md text-white md:w-auto w-full">Request Code</button>
+        <button className="bg-teal-400 hover:bg-teal-500 duration-300 px-5 py-2.5 font-roboto rounded-md text-white md:w-auto w-full">Request My Picks</button>
         </div>    
         </div>
         <ItemsContainer />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 text-center pt-2 text-gray-400 text-sm pb-8">
           <span>@2022 Sportsbettor101 All rights reserved</span>
           <span>Terms~ Privacy Policy</span>
-          <Socialicons Icons = {Icons}/>
+          <Socialicons />
         </div>
     </div>
   )

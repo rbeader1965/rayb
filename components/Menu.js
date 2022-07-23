@@ -26,10 +26,3 @@ export const WORK = [
     { name: "Fall 2022", link: "#"}
 ];
 
-export const Icons = [
-    { name: "BsFacebook", link: "#"},
-    { name: "BsTwitter", link: "#"},
-    { name: "BsInstagram", link: "#"},
-    { name: "BsApple", link: "#"},
-    { name: "BsBank", link: "#"}
-];
