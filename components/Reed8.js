@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 const Reed8 = () => {
   return (
-    <div className='bg-stone-500 flex p-12 justify-center gap-2'>
+    <div className='bg-stone-500 grid grid-cols-1 md:flex p-12 justify-center gap-2'>
     <h2 className='mt-2 text-3xl text-gray-700 font-roboto font-semibold'>Quasar</h2>
     <button className='bg-gray-600 mt-3 mr-3 rounded-full ring-offset-2 ring-2 text-xs p-1 hover:bg-gray-800 hover:text-white'>
      <Link className='text-gray-400' href="/pdfs/misc/wedgesquasar.pdf">Wedges</Link>
