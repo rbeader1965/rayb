@@ -14,7 +14,7 @@ const TourEight = () => {
                   // eslint-disable-next-line react/jsx-key
                   <div className='bg-stone-500'>
                     <div  key={person.id} className='h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden'>
-                    <Image  src={person.src} alt={person.alt} width={512} height={256}/>
+                    <Image  src={person.src} alt={person.alt} width={512} height={256} layout="responsive"/>
                     <div className='p-6 hover:bg-stone-700 hover:text-white transition duration-300 ease-in'>
                     <h2 className='text-base font-medium text-slate-200 mb-1'>Hole # {person.hole}</h2>
                         <h1 className='text-2xl font-semibold mb-3'>{person.course}</h1>

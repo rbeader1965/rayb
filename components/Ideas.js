@@ -19,8 +19,8 @@ export async function getServerSideProps() {
 const Ideas = ({data1}) => {
   return (
     <div>
-        <table className="w-auto p-2 md:p-1 text-xs text-center text-amber-500 dark:text-amber-400">
-  <thead className="text-xs md:text-2xl text-gray-700 uppercase text-semibold bg-amber-50 dark:bg-amber-700 dark:text-amber-400">
+        <table className="invisible md:visible opacity-75 w-auto p-2 md:p-1 text-xs text-center text-amber-500 dark:text-amber-400">
+  <thead className="text-xs md:text-xl text-gray-700 uppercase text-semibold bg-amber-50 dark:bg-amber-700 dark:text-amber-400">
     <tr>
     <th  scope="col" className="px-1 md:px-4 py-1 md:py-3">Date</th>
     <th  scope="col" className="px-1 md:px-4 py-1 md:py-3">Hours</th>
@@ -31,7 +31,7 @@ const Ideas = ({data1}) => {
   </thead>
   <tbody>
       {data1.map((image) => (
-    <tr key={image.id} className="text-xs md:text-2xl border-b dark:bg-amber-900 dark:border-amber-700 odd:bg-white even:bg-amber-50 odd:dark:bg-amber-900 even:dark:bg-amber-700">
+    <tr key={image.id} className="text-xs md:text-xl border-b dark:bg-amber-900 dark:border-amber-700 odd:bg-white even:bg-amber-50 odd:dark:bg-amber-900 even:dark:bg-amber-700">
         <td  className="px-1 md:px-4 py-1 md:py-4">{format(new Date(image.mates),'MM/dd/yyyy')}</td>
         <td  className="px-1 md:px-4 py-1 md:py-4">{image.hours}</td>
         <td  className="px-1 md:px-4 py-1 md:py-4">${image.tips}</td>

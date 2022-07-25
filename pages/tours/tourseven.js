@@ -15,7 +15,7 @@ const TourSeven = () => {
                   <div className='bg-slate-500'>
                     <div className='font-roboto'>
                     <div  key={person.id} className='h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden'>
-                    <Image  src={person.src} alt={person.alt} width={512} height={256}/>
+                    <Image  src={person.src} alt={person.alt} width={512} height={256} layout="responsive"/>
                     <div className='p-6 hover:bg-slate-900 hover:text-white transition duration-300 ease-in'>
                     <h2 className='text-base font-medium text-center text-slate-200 mb-1'>Hole # {person.hole}</h2>
                         <h1 className='text-2xl text-center font-roboto color-black font-semibold mb-3'>{person.course}</h1>
