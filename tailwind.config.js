@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       fontFamily: {
         'barlow': 'Barlow Condensed',
-        'roboto': 'Roboto'
+        'roboto': 'Roboto',
+        'noto': 'Noto Sans Display'
       },
     },
   },

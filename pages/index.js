@@ -2,6 +2,7 @@ import { createClient } from "@supabase/supabase-js";
 import Ideas from "../components/Ideas";
 import Footer from '../components/Footer';
 
+
 export async function getServerSideProps() {
   const supabaseAdmin = createClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL || '',

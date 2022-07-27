@@ -19,7 +19,7 @@ export async function getServerSideProps() {
 const Ideas = ({data1}) => {
   return (
     <div>
-        <table className="invisible md:visible opacity-75 w-auto p-2 md:p-1 text-xs text-center text-amber-500 dark:text-amber-400">
+        <table className="invisible md:visible  w-auto p-2 md:p-1 text-xs text-center text-amber-500 dark:text-amber-400">
   <thead className="text-xs md:text-xl text-gray-700 uppercase text-semibold bg-amber-50 dark:bg-amber-700 dark:text-amber-400">
     <tr>
     <th  scope="col" className="px-1 md:px-4 py-1 md:py-3">Date</th>
