@@ -1,5 +1,7 @@
 import { createClient } from "@supabase/supabase-js";
 import { format } from 'date-fns'
+
+
 export async function getServerSideProps() {
   const supabaseAdmin = createClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL || '',
@@ -16,10 +18,13 @@ export async function getServerSideProps() {
   }
 }
 
-const Ideas = ({data1}) => {
+
+
+export default function WorkHistory({data1}) {
   return (
-    <div>
-        <table className="invisible md:visible  w-auto p-2 md:p-1 text-xs text-center text-blue-500 dark:text-blue-400">
+<>
+<div className="bg-zinc-800 w-full flex justify-center ">
+<table className="w-auto p-2 md:p-1 text-xs text-center text-blue-500 dark:text-blue-400">
   <thead className="text-xs md:text-xl text-gray-700 uppercase text-semibold bg-zinc-50 dark:bg-zinc-700 dark:text-zinc-400">
     <tr>
     <th  scope="col" className="px-1 md:px-4 py-1 md:py-3">Date</th>
@@ -42,8 +47,8 @@ const Ideas = ({data1}) => {
       ))}
   </tbody>
 </table>
-    </div>
+</div>
+
+</> 
   )
 }
-
-export default Ideas

@@ -14,7 +14,7 @@ const TourSix = () => {
                   // eslint-disable-next-line react/jsx-key
                   <div  className='bg-green-500 '>
                     <div key={person.id}  className='h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden object-cover'>
-                    <Image  src={person.src} alt={person.alt} width={512} height={256} layout="responsive"/>
+                    <Image  src={person.src} alt={person.alt} width={512} height={256} layout="intrinsic"/>
                     <div className='p-6 hover:bg-green-900 hover:text-white transition duration-300 ease-in'>
                     <h2 className='text-base text-center font-medium text-slate-200 mb-1'>Hole # {person.hole}</h2>
                         <h1 className='text-2xl text-center font-semibold mb-3'>{person.course}</h1>

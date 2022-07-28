@@ -21,7 +21,7 @@ export const POKER = [
 
 export const WORK = [
     { name: "Winter 2022", link: "#"},
-    { name: "Spring 2022", link: "#"},
+    { name: "Spring 2022", link: "/workHistory"},
     { name: "Summer 2022", link: "#"},
     { name: "Fall 2022", link: "#"}
 ];

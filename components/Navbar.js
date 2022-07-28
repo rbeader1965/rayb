@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className='relative bg-slate-800 w-full h-16 md:h-auto md:w-auto md:flex justify-between '>
     <div className="flex flex-wrap justify-items-stretch gap-">
       <ul className='m-4 text-base flex flex-wrap items-center gap-1 md:gap-4 font-roboto'>
-      <BeakerIcon className="h-4 w-4 md:h-4 md:w-4 text-blue-500 hover:text-yellow-200"/>
+      <BeakerIcon className="h-4 w-4 md:h-6 md:w-6 md:m-4 text-blue-500 hover:text-yellow-200"/>
       <Link href="/">
       <a className="text-blue-500 md:text-2xl text-base mr-2 hover:text-blue-200">Home</a>
       </Link>
