@@ -8,7 +8,7 @@ const TourSix = () => {
     <h5 className='text-base  text-gray-700 mb-1'>Welcome to </h5>
     <h1 className='text-4xl text-gray-700 font-semibold'>Golf Clash Tour 6</h1>
     </div>
-            <div className='bg-green-500 grid grid-cols-1 md:grid-cols-3 p-2 gap-2 font-roboto'>
+            <div className='relative bg-green-500 grid grid-cols-1 md:grid-cols-3 p-2 gap-2 font-roboto z-10'>
                 {Data.map(person => {
                   return(
                   // eslint-disable-next-line react/jsx-key
