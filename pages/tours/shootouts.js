@@ -33,7 +33,9 @@ const Shootouts = () => {
                             <a href={person.pdf5}>{person.ball5}</a>
                           </button>
                         </div>
-                    
+                        <div className='p-2'>
+                        <p>{person.notes}</p>
+                        </div>
                       </div>
                      </div>
                     </div>
