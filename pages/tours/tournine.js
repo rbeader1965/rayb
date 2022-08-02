@@ -18,8 +18,20 @@ const TourNine = () => {
                     <div className='p-6 hover:bg-zinc-900 hover:text-white transition duration-300 ease-in'>
                     <h2 className='text-base text-center font-medium text-slate-200 mb-1'>Hole # {person.hole}</h2>
                         <h1 className='text-2xl text-center font-semibold mb-3'>{person.course}</h1>
-                        <p className='leading-relaxed text-center mb-2'>Yellow is for Katana , Gray is for Titan</p>
-                         <div className='flex justify-center flex-nowrap gap-2'>
+                        <p className='leading-relaxed text-center mb-2'>Red-Navigator/Yellow-Katana/Blue-Titan</p>
+                         <div className='grid grid-cols-4 grid-rows-3 gap-2'>
+                         <button className='bg-red-600 rounded-full ring-offset-2 ring-2 text-xs p-1 hover:bg-red-800'>
+                            <a href={person.pdf9}>{person.driver}</a>
+                          </button>
+                          <button className='bg-red-600 rounded-full ring-offset-2 ring-2 text-xs p-1 hover:bg-red-800'>
+                            <a href={person.pdf10}>{person.wood}</a>
+                          </button>
+                          <button className='bg-red-600 rounded-full ring-offset-2 ring-2 text-xs p-1 hover:bg-red-800'>
+                            <a href={person.pdf11}>{person.longiron}</a>
+                          </button>
+                          <button className='bg-red-600 rounded-full ring-offset-2 ring-2 text-xs p-1 hover:bg-red-800'>
+                            <a href={person.pdf12}>{person.shorthorn}</a>
+                          </button>
                          <button className='bg-yellow-600 rounded-full ring-offset-2 ring-2 text-xs p-1 hover:bg-yellow-800'>
                             <a href={person.pdf1}>{person.driver}</a>
                           </button>
@@ -32,19 +44,17 @@ const TourNine = () => {
                           <button className='bg-yellow-600 rounded-full ring-offset-2 ring-2 text-xs p-1 hover:bg-yellow-800'>
                             <a href={person.pdf4}>{person.shorthorn}</a>
                           </button>
-                        </div>
-                        <div className='mt-2 flex justify-center flex-nowrap gap-2 mb-4'>
-                         <button className='bg-gray-400 rounded-full ring-offset-2 ring-2 text-xs p-1 hover:bg-gray-800'>
-                            <a href={person.pdf5}>{person.drivera}</a>
+                         <button className='bg-blue-400 rounded-full ring-offset-2 ring-2 text-xs p-1 hover:bg-blue-800'>
+                            <a href={person.pdf5}>{person.driver}</a>
                           </button>
-                          <button className='bg-gray-400 rounded-full ring-offset-2 ring-2 text-xs p-1 hover:bg-gray-800'>
-                            <a href={person.pdf6}>{person.wooda}</a>
+                          <button className='bg-blue-400 rounded-full ring-offset-2 ring-2 text-xs p-1 hover:bg-blue-800'>
+                            <a href={person.pdf6}>{person.wood}</a>
                           </button>
-                          <button className='bg-gray-400 rounded-full ring-offset-2 ring-2 text-xs p-1 hover:bg-gray-800'>
-                            <a href={person.pdf7}>{person.longirona}</a>
+                          <button className='bg-blue-400 rounded-full ring-offset-2 ring-2 text-xs p-1 hover:bg-blue-800'>
+                            <a href={person.pdf7}>{person.longiron}</a>
                           </button>
-                          <button className='bg-gray-400 rounded-full ring-offset-2 ring-2 text-xs p-1 hover:bg-gray-800'>
-                            <a href={person.pdf8}>{person.shorthorna}</a>
+                          <button className='bg-blue-400 rounded-full ring-offset-2 ring-2 text-xs p-1 hover:bg-blue-800'>
+                            <a href={person.pdf8}>{person.shorthorn}</a>
                           </button>
                         </div>
                       </div>

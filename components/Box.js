@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import Script from "next/script"
 const Box = () => {
   return (
     <div className='bg-black w-1/3 h-64 border-1 border-white flex'>
